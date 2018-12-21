@@ -7,7 +7,7 @@ from setuptools import setup
 setup(
     name="lms",
     version="0.0.0",
-    author="Darya Vasilyeva and Alina Glukhonemykh",
+    author="Darya Vasilyeva",
     url="https://github.com/daryavasilyeva/final_project",
     license="MIT",
     packages=[
