@@ -1,0 +1,15 @@
+language: python
+python:
+  - 3.6
+install:
+  - pip install flask
+  - pip install flask-sqlalchemy
+  - pip install flask-wtf
+  - pip install sqlalchemy 
+  - pip install flask-login
+  - pip install sqlalchemy-migrate
+  - set FLASK_APP  = lms.py
+script:
+  - flask run
+after_success:
+  - codecov
